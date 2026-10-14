@@ -34,7 +34,7 @@ public class Agence {
 
     @OneToMany(mappedBy = "agence", fetch = FetchType.LAZY, cascade = {CascadeType.PERSIST, CascadeType.MERGE})
     private List<Employe> employes = new ArrayList<>();
-
+    
     @OneToMany(mappedBy = "agence", fetch = FetchType.LAZY, cascade = {CascadeType.PERSIST, CascadeType.MERGE})
     private List<Vehicule> vehicules = new ArrayList<>();
 }
