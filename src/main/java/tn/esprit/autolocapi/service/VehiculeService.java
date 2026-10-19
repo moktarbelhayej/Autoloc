@@ -1,8 +1,7 @@
 package tn.esprit.autolocapi.service;
 import tn.esprit.autolocapi.domain.Vehicule;
 import java.util.List;
-import tn.esprit.autolocapi.service.IVehiculeService;
-import org.springframework.beans.factory.annotation.Autowired;
+
 import org.springframework.stereotype.Service;
 import tn.esprit.autolocapi.repository.VehiculeRepository;
 
